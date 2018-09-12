@@ -106,7 +106,7 @@ And verify Glib is installed through the next command:
 
     - $ sudo apt-get install libglib2.0-dev
 
-**Here are a ScreenShoot to make ir more visible.**
+**Here are a ScreenShoot to make it more visible.**
 
 ![cap1](https://user-images.githubusercontent.com/15019106/45443883-9a493b00-b68b-11e8-899c-7b109b8efbf9.PNG)
 
@@ -132,7 +132,7 @@ To run the executable just created, the next command is applied:
     
     - Directory/folder$ ./scheduler process4.txt
 
-**Here are a ScreenShoot to make ir more visible.**
+**Here are a ScreenShoot to make it more visible.**
 
 ![cap2](https://user-images.githubusercontent.com/15019106/45445000-ae426c00-b68e-11e8-8496-d33004077d70.PNG)
 
