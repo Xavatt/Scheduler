@@ -11,4 +11,6 @@ Given a list of processes, the goal of this project is to implement a simple pro
 
 The simulator should produce as output the avarage waiting time and average response time for all six scheduling algorithms described above.
 
+## Goals
 
+The implementation of scheduling algorithm will test the comprehension of the scheduling algorithms, as well as verify that the student is capable of using basic dynamic data structures, file managment,and general programming methodologies.
