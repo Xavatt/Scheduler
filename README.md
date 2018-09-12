@@ -136,3 +136,4 @@ To run the executable just created, the next command is applied:
 
 ![cap2](https://user-images.githubusercontent.com/15019106/45445000-ae426c00-b68e-11e8-8496-d33004077d70.PNG)
 
+**NOTE: Since the source code is in several files, the files MUST be in the same directory**
