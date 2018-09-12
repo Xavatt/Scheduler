@@ -106,3 +106,4 @@ And verify Glib is installed through the next command:
 
     - $ sudo apt-get install libglib2.0-dev
 
+**Here are a ScreenShoot to make ir more visible.**
