@@ -133,3 +133,6 @@ To run the executable just created, the next command is applied:
     - Directory/folder$ ./scheduler process4.txt
 
 **Here are a ScreenShoot to make ir more visible.**
+
+![cap2](https://user-images.githubusercontent.com/15019106/45445000-ae426c00-b68e-11e8-8496-d33004077d70.PNG)
+
