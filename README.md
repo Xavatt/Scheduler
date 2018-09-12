@@ -73,3 +73,5 @@ The program should out put the average waiting time and average response time fo
 | Preemptive Priority     | 4.2000            | 5.4000                | 5                 |
 | Preemtive SJF           | 2.4000            | 6.2000                | 5                 |
 | Round Robin             | 3.6000            | 5.8000                | 5                 |
+
+# Problem Statement
