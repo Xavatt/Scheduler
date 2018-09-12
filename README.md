@@ -75,3 +75,7 @@ The program should out put the average waiting time and average response time fo
 | Round Robin             | 3.6000            | 5.8000                | 5                 |
 
 # Problem Statement
+
+
+## How To Build Executable Of The Program
+
