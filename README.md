@@ -79,3 +79,30 @@ The program should out put the average waiting time and average response time fo
 
 ## How To Build Executable Of The Program
 
+Using a Linux environment of **64-bits**, to build the executable of the program is required the ise of the terminal, also called *command line*.
+
+### The prerequisites are:
+
+**1. Install C/C++ compiler and related tools**
+
+Though these are already installed as gcc (GNU Compiler Collection), it is not bad to update it and verify it is installed.
+
+You can use the following commands to check the updates:
+
+    - $ sudo apt-get update
+    - $ sudo apt-get install build-essential manpages-dev
+
+**2. Install The Glib Library**
+
+Since we are using the general-purpose library Glib, It is necessary to install it. According to the Glib documentation, Glib may make use of some GTK+ dependencies, therefore, in order to install glib completely it is necessary to install GTK+.
+
+GTK+ is a multi-plataform tooljit for creating graphical user interfaces and a package that contains the shared libraries. 
+
+It is better to install GTK through the following command:
+
+    -  $ sudo apt-get install libgtk2.0-dev
+
+And verify Glib is installed through the next command:
+
+    - $ sudo apt-get install libglib2.0-dev
+
