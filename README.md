@@ -109,3 +109,27 @@ And verify Glib is installed through the next command:
 **Here are a ScreenShoot to make ir more visible.**
 
 ![cap1](https://user-images.githubusercontent.com/15019106/45443883-9a493b00-b68b-11e8-899c-7b109b8efbf9.PNG)
+
+
+Finally, **To compile** the executable Schedler the following command is required:
+
+    - gcc -Wall Scheduler.c Dispatcher.c FileIO.c Process.c -o scheduler $(pkg-config --cflags --libs glib-2.0)
+
+### Explication of the command
+
+-    gcc : Is the command to invoke gcc compiler.
+-   -Wall : Enables all compiler's warning messages. (This command is optional)
+-   Scheduler.c Dispatcher.c FileIO.c Process.c : To compile the program from multiple source files.
+-   -o : It will define the output file with the following name:
+    -   scheduler : In this case, the name of the output file.
+
+-   pkg-config : Search in the package configuration for an easier compilation.
+-   --cflags : Are the name of environment variables for the C compiler.
+-   --libs[*library*] : To fetch required include, lib flags, and it's dependencies for the followed *library*. This assumes *library-dev* package is already installed.
+-   [**glib-2.0**] : The library used in this case to compile along with the program.
+
+To run the executable just created, the next command is applied:
+    
+    - Directory/folder$ ./scheduler process4.txt
+
+**Here are a ScreenShoot to make ir more visible.**
