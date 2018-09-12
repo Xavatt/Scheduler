@@ -55,3 +55,21 @@ Then the text file describing the above table would be:
 |3 5 6 2|
 |4 6 2 1|
 |5 6 7 3|
+
+If there are gaps between the time a process finishes execution and another process starting execution that means that the CPU was idle and this will have an effect on the average waiting
+time and average response time.
+
+## Expected Outputs
+
+The program should out put the average waiting time and average response time for each of the six scheduling algorithms in the following order: First Come First Served (FCFS), Non-Preemptive Shortest Job First (SJF), Non-Preemptive Priority, Preemptive Shortest Job First (SJF), Preemptive Priority, and Round Robin. Use 32-bit floating point variables with four digits of precision when you display your results.
+
+**Consider the processes described in Table 1. The Expected Results Are:**
+
+| Algorithm               | Average Wait Time | Average Response Time | Number of Process |
+| :---------------------: | :---------------: | :-------------------: | :---------------: |
+| FCFS                    | 3.2000            | 7.0000                | 5                 |
+| Non-Preemptive Priority | 2.4000            | 6.2000                | 5                 |
+| Non-Preemptive SJF      | 2.4000            | 6.2000                | 5                 |
+| Preemptive Priority     | 4.2000            | 5.4000                | 5                 |
+| Preemtive SJF           | 2.4000            | 6.2000                | 5                 |
+| Round Robin             | 3.6000            | 5.8000                | 5                 |
