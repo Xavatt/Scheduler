@@ -43,33 +43,10 @@
  * $Id$
  */
 
-/*!
-  * \author Edgar Daniel Rojas Vazquez & Abelardo Lopez Lagunas
-  * \version 1.0
-  * \date 19/09/2017
-  * \copyright GNU Public License
-  * \mainpage Process scheduler
-  * \section intro Introduction
-  * This code was made for the class TC2008 Operating Systems.
-  * The main focus of this code is to take a file as an input with various processes
-  * on it and apply the 6 process scheduling algorithms seen in class. Afterwards
-  * it shall print out the average wait time for each algorithm applied. The only
-  * code reutilized was that which was provided by the Profesor Abelardo Lopez Lagunas.
-  * The files reutilized are scheduler.c, FileIO.h and FileIO.c .
-  * \section info Documentation
-  * The documentation for this code is accessible from these html file. In the case
-  * that the algorithm isn't described thoroughly enough in this documentation, the source
-  * code contains more comments with respect to how the algorithms where implemented.
-  * \section comp Compilation
-  * In order to compile this code it is necessary to have the GLib libraries installed on
-  * your machine, once that is done, you need to run the following command to compile all the
-  * files using the GLib library.\n gcc scheduler.c Process.c FileIO.c Dispatcher.c `pkg-config --cflags --libs glib-2.0` -Wall -o scheduler
-  */
-
-#include <glib.h>       /* Used for data structure manipulation*/
+#include <glib.h>       /* Used for data structure manipulation */
 #include <stdlib.h>     /* Used for malloc definition */
-#include <stdio.h>      /* Used for fprintf */
-#include <string.h>     /* Used for strcmp */
+#include <stdio.h>      /* Used for fprintf  */
+#include <string.h>     /* Used for strcmp  */
 #include <assert.h>     /* Used for the assert macro */
 #include "FileIO.h"     /* Definition of file access support functions */
 #include "Process.h"    /* Used for handling of processes*/
