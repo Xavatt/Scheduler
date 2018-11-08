@@ -76,6 +76,12 @@ The program should out put the average waiting time and average response time fo
 
 # Problem Statement
 
+Taking previous knowledge of the class Data Structure we use a doubly-linked code to implement the running and waiting process list with the library GLib. But before start to code we did some example exercises with every algorithm with the purpose of understanding completely how it works and how to get the average time that is the goal of this project.
+
+Once we obtain the information of the text file and save that information in the double-linked list we ordered in different ways for every algorithm so we can implement and resolve the average time of it. We take some precaution at the moment of reading the text file to ignore some character as a comments so we can take the real data that we will use that are the quantum, the number of process, arrival time, cpu burst, and priority. In case that there was a mistake reading the file we let you know with a print in the system.
+
+So once we got that information our program start to run each algorithm one at a time. The nodes and pointers take a very important role because with them we do some comparison that help us to order the list by arrival time, priority, cpu burst for example. So in other file of the project we took that order list with their respective algorithm.
+
 
 ## How To Build Executable Of The Program
 
